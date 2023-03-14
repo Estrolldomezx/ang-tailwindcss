@@ -13,6 +13,8 @@ import { SiteBannerComponent } from './site-banner/site-banner.component';
 import { SiteCardComponent } from './site-card/site-card.component';
 import { SiteCardSecondComponent } from './site-card-second/site-card-second.component';
 import { AnotherCardComponent } from './another-card/another-card.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { AnotherCardComponent } from './another-card/another-card.component';
     SiteBannerComponent,
     SiteCardComponent,
     SiteCardSecondComponent,
-    AnotherCardComponent
+    AnotherCardComponent,
+    TestimonialsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
