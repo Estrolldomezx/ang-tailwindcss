@@ -9,10 +9,12 @@ import {InputNumberModule} from 'primeng/inputnumber';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { SiteBannerComponent } from './site-banner/site-banner.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    SiteBannerComponent
   ],
   imports: [
     BrowserModule,
