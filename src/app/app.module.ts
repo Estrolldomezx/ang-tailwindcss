@@ -10,11 +10,13 @@ import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SiteBannerComponent } from './site-banner/site-banner.component';
+import { SiteCardComponent } from './site-card/site-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    SiteBannerComponent
+    SiteBannerComponent,
+    SiteCardComponent
   ],
   imports: [
     BrowserModule,
