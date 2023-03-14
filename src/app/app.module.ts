@@ -11,12 +11,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SiteBannerComponent } from './site-banner/site-banner.component';
 import { SiteCardComponent } from './site-card/site-card.component';
+import { SiteCardSecondComponent } from './site-card-second/site-card-second.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     SiteBannerComponent,
-    SiteCardComponent
+    SiteCardComponent,
+    SiteCardSecondComponent
   ],
   imports: [
     BrowserModule,
