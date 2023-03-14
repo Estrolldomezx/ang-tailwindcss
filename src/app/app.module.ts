@@ -12,13 +12,15 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { SiteBannerComponent } from './site-banner/site-banner.component';
 import { SiteCardComponent } from './site-card/site-card.component';
 import { SiteCardSecondComponent } from './site-card-second/site-card-second.component';
+import { AnotherCardComponent } from './another-card/another-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     SiteBannerComponent,
     SiteCardComponent,
-    SiteCardSecondComponent
+    SiteCardSecondComponent,
+    AnotherCardComponent
   ],
   imports: [
     BrowserModule,
